@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8169C39C24EFB5D800B8A0EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8169C39B24EFB5D800B8A0EE /* AppDelegate.swift */; };
+		8169C39E24EFB5D800B8A0EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8169C39D24EFB5D800B8A0EE /* SceneDelegate.swift */; };
+		8169C3A024EFB5D800B8A0EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8169C39F24EFB5D800B8A0EE /* ViewController.swift */; };
+		8169C3A324EFB5D800B8A0EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8169C3A124EFB5D800B8A0EE /* Main.storyboard */; };
+		8169C3A524EFB5DA00B8A0EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8169C3A424EFB5DA00B8A0EE /* Assets.xcassets */; };
+		8169C3A824EFB5DA00B8A0EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8169C3A624EFB5DA00B8A0EE /* LaunchScreen.storyboard */; };
+		8169C3B324EFB5DA00B8A0EE /* saamariasWebVideoPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8169C3B224EFB5DA00B8A0EE /* saamariasWebVideoPlayerTests.swift */; };
+		8169C3BE24EFB5DA00B8A0EE /* saamariasWebVideoPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8169C3BD24EFB5DA00B8A0EE /* saamariasWebVideoPlayerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8169C3AF24EFB5DA00B8A0EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8169C39024EFB5D800B8A0EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8169C39724EFB5D800B8A0EE;
+			remoteInfo = saamariasWebVideoPlayer;
+		};
+		8169C3BA24EFB5DA00B8A0EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8169C39024EFB5D800B8A0EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8169C39724EFB5D800B8A0EE;
+			remoteInfo = saamariasWebVideoPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8169C39824EFB5D800B8A0EE /* saamariasWebVideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = saamariasWebVideoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8169C39B24EFB5D800B8A0EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8169C39D24EFB5D800B8A0EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8169C39F24EFB5D800B8A0EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8169C3A224EFB5D800B8A0EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8169C3A424EFB5DA00B8A0EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8169C3A724EFB5DA00B8A0EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8169C3A924EFB5DA00B8A0EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8169C3AE24EFB5DA00B8A0EE /* saamariasWebVideoPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = saamariasWebVideoPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8169C3B224EFB5DA00B8A0EE /* saamariasWebVideoPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = saamariasWebVideoPlayerTests.swift; sourceTree = "<group>"; };
+		8169C3B424EFB5DA00B8A0EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8169C3B924EFB5DA00B8A0EE /* saamariasWebVideoPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = saamariasWebVideoPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8169C3BD24EFB5DA00B8A0EE /* saamariasWebVideoPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = saamariasWebVideoPlayerUITests.swift; sourceTree = "<group>"; };
+		8169C3BF24EFB5DA00B8A0EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8169C39524EFB5D800B8A0EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8169C3AB24EFB5DA00B8A0EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8169C3B624EFB5DA00B8A0EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8169C38F24EFB5D800B8A0EE = {
+			isa = PBXGroup;
+			children = (
+				8169C39A24EFB5D800B8A0EE /* saamariasWebVideoPlayer */,
+				8169C3B124EFB5DA00B8A0EE /* saamariasWebVideoPlayerTests */,
+				8169C3BC24EFB5DA00B8A0EE /* saamariasWebVideoPlayerUITests */,
+				8169C39924EFB5D800B8A0EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8169C39924EFB5D800B8A0EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8169C39824EFB5D800B8A0EE /* saamariasWebVideoPlayer.app */,
+				8169C3AE24EFB5DA00B8A0EE /* saamariasWebVideoPlayerTests.xctest */,
+				8169C3B924EFB5DA00B8A0EE /* saamariasWebVideoPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8169C39A24EFB5D800B8A0EE /* saamariasWebVideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				8169C39B24EFB5D800B8A0EE /* AppDelegate.swift */,
+				8169C39D24EFB5D800B8A0EE /* SceneDelegate.swift */,
+				8169C39F24EFB5D800B8A0EE /* ViewController.swift */,
+				8169C3A124EFB5D800B8A0EE /* Main.storyboard */,
+				8169C3A424EFB5DA00B8A0EE /* Assets.xcassets */,
+				8169C3A624EFB5DA00B8A0EE /* LaunchScreen.storyboard */,
+				8169C3A924EFB5DA00B8A0EE /* Info.plist */,
+			);
+			path = saamariasWebVideoPlayer;
+			sourceTree = "<group>";
+		};
+		8169C3B124EFB5DA00B8A0EE /* saamariasWebVideoPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8169C3B224EFB5DA00B8A0EE /* saamariasWebVideoPlayerTests.swift */,
+				8169C3B424EFB5DA00B8A0EE /* Info.plist */,
+			);
+			path = saamariasWebVideoPlayerTests;
+			sourceTree = "<group>";
+		};
+		8169C3BC24EFB5DA00B8A0EE /* saamariasWebVideoPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8169C3BD24EFB5DA00B8A0EE /* saamariasWebVideoPlayerUITests.swift */,
+				8169C3BF24EFB5DA00B8A0EE /* Info.plist */,
+			);
+			path = saamariasWebVideoPlayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8169C39724EFB5D800B8A0EE /* saamariasWebVideoPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8169C3C224EFB5DA00B8A0EE /* Build configuration list for PBXNativeTarget "saamariasWebVideoPlayer" */;
+			buildPhases = (
+				8169C39424EFB5D800B8A0EE /* Sources */,
+				8169C39524EFB5D800B8A0EE /* Frameworks */,
+				8169C39624EFB5D800B8A0EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = saamariasWebVideoPlayer;
+			productName = saamariasWebVideoPlayer;
+			productReference = 8169C39824EFB5D800B8A0EE /* saamariasWebVideoPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8169C3AD24EFB5DA00B8A0EE /* saamariasWebVideoPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8169C3C524EFB5DA00B8A0EE /* Build configuration list for PBXNativeTarget "saamariasWebVideoPlayerTests" */;
+			buildPhases = (
+				8169C3AA24EFB5DA00B8A0EE /* Sources */,
+				8169C3AB24EFB5DA00B8A0EE /* Frameworks */,
+				8169C3AC24EFB5DA00B8A0EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8169C3B024EFB5DA00B8A0EE /* PBXTargetDependency */,
+			);
+			name = saamariasWebVideoPlayerTests;
+			productName = saamariasWebVideoPlayerTests;
+			productReference = 8169C3AE24EFB5DA00B8A0EE /* saamariasWebVideoPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8169C3B824EFB5DA00B8A0EE /* saamariasWebVideoPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8169C3C824EFB5DA00B8A0EE /* Build configuration list for PBXNativeTarget "saamariasWebVideoPlayerUITests" */;
+			buildPhases = (
+				8169C3B524EFB5DA00B8A0EE /* Sources */,
+				8169C3B624EFB5DA00B8A0EE /* Frameworks */,
+				8169C3B724EFB5DA00B8A0EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8169C3BB24EFB5DA00B8A0EE /* PBXTargetDependency */,
+			);
+			name = saamariasWebVideoPlayerUITests;
+			productName = saamariasWebVideoPlayerUITests;
+			productReference = 8169C3B924EFB5DA00B8A0EE /* saamariasWebVideoPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8169C39024EFB5D800B8A0EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "web video player";
+				TargetAttributes = {
+					8169C39724EFB5D800B8A0EE = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					8169C3AD24EFB5DA00B8A0EE = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 8169C39724EFB5D800B8A0EE;
+					};
+					8169C3B824EFB5DA00B8A0EE = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 8169C39724EFB5D800B8A0EE;
+					};
+				};
+			};
+			buildConfigurationList = 8169C39324EFB5D800B8A0EE /* Build configuration list for PBXProject "saamariasWebVideoPlayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8169C38F24EFB5D800B8A0EE;
+			productRefGroup = 8169C39924EFB5D800B8A0EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8169C39724EFB5D800B8A0EE /* saamariasWebVideoPlayer */,
+				8169C3AD24EFB5DA00B8A0EE /* saamariasWebVideoPlayerTests */,
+				8169C3B824EFB5DA00B8A0EE /* saamariasWebVideoPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8169C39624EFB5D800B8A0EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8169C3A824EFB5DA00B8A0EE /* LaunchScreen.storyboard in Resources */,
+				8169C3A524EFB5DA00B8A0EE /* Assets.xcassets in Resources */,
+				8169C3A324EFB5D800B8A0EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8169C3AC24EFB5DA00B8A0EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8169C3B724EFB5DA00B8A0EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8169C39424EFB5D800B8A0EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8169C3A024EFB5D800B8A0EE /* ViewController.swift in Sources */,
+				8169C39C24EFB5D800B8A0EE /* AppDelegate.swift in Sources */,
+				8169C39E24EFB5D800B8A0EE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8169C3AA24EFB5DA00B8A0EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8169C3B324EFB5DA00B8A0EE /* saamariasWebVideoPlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8169C3B524EFB5DA00B8A0EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8169C3BE24EFB5DA00B8A0EE /* saamariasWebVideoPlayerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8169C3B024EFB5DA00B8A0EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8169C39724EFB5D800B8A0EE /* saamariasWebVideoPlayer */;
+			targetProxy = 8169C3AF24EFB5DA00B8A0EE /* PBXContainerItemProxy */;
+		};
+		8169C3BB24EFB5DA00B8A0EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8169C39724EFB5D800B8A0EE /* saamariasWebVideoPlayer */;
+			targetProxy = 8169C3BA24EFB5DA00B8A0EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8169C3A124EFB5D800B8A0EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8169C3A224EFB5D800B8A0EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8169C3A624EFB5DA00B8A0EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8169C3A724EFB5DA00B8A0EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8169C3C024EFB5DA00B8A0EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8169C3C124EFB5DA00B8A0EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8169C3C324EFB5DA00B8A0EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = saamariasWebVideoPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "web-video.saamariasWebVideoPlayer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8169C3C424EFB5DA00B8A0EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = saamariasWebVideoPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "web-video.saamariasWebVideoPlayer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8169C3C624EFB5DA00B8A0EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = saamariasWebVideoPlayerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "web-video.saamariasWebVideoPlayerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/saamariasWebVideoPlayer.app/saamariasWebVideoPlayer";
+			};
+			name = Debug;
+		};
+		8169C3C724EFB5DA00B8A0EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = saamariasWebVideoPlayerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "web-video.saamariasWebVideoPlayerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/saamariasWebVideoPlayer.app/saamariasWebVideoPlayer";
+			};
+			name = Release;
+		};
+		8169C3C924EFB5DA00B8A0EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = saamariasWebVideoPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "web-video.saamariasWebVideoPlayerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = saamariasWebVideoPlayer;
+			};
+			name = Debug;
+		};
+		8169C3CA24EFB5DA00B8A0EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = saamariasWebVideoPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "web-video.saamariasWebVideoPlayerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = saamariasWebVideoPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8169C39324EFB5D800B8A0EE /* Build configuration list for PBXProject "saamariasWebVideoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8169C3C024EFB5DA00B8A0EE /* Debug */,
+				8169C3C124EFB5DA00B8A0EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8169C3C224EFB5DA00B8A0EE /* Build configuration list for PBXNativeTarget "saamariasWebVideoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8169C3C324EFB5DA00B8A0EE /* Debug */,
+				8169C3C424EFB5DA00B8A0EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8169C3C524EFB5DA00B8A0EE /* Build configuration list for PBXNativeTarget "saamariasWebVideoPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8169C3C624EFB5DA00B8A0EE /* Debug */,
+				8169C3C724EFB5DA00B8A0EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8169C3C824EFB5DA00B8A0EE /* Build configuration list for PBXNativeTarget "saamariasWebVideoPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8169C3C924EFB5DA00B8A0EE /* Debug */,
+				8169C3CA24EFB5DA00B8A0EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8169C39024EFB5D800B8A0EE /* Project object */;
+}
